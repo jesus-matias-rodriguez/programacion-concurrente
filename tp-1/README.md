@@ -11,7 +11,7 @@
 2. - [x] crear la clase **CuentaSueldo**
 3. - [x] Crear e implementar las interfaces *OperacionesComunes* y *OperacionesImportantes*
 
-![CunetasUML](./doc/cuentas.svg)
+![CunetasUML](./docs/cuentas.svg)
 
 ## Formas
 - Las clases correspondientes se encuentran en el paquete **Formas**
@@ -22,4 +22,4 @@
 5. - [x] Cree la clase **Circulo** que herede de **Forma**
 6. - [x] Intercambia la clase abstracta **Forma** por una interfaz (*IForma*)
 
-![FormasUML](./doc/formas.svg)
+![FormasUML](./docs/formas.svg)
