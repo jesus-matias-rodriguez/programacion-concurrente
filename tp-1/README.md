@@ -1,5 +1,5 @@
 # TP 1 Programación Concurrente.
-[Trabajo Practico 1](./doc/MDPyPCTP01_2024-Paradigma%20Orientado%20a%20Objetos.pdf)
+[Trabajo Practico 1](./docs/tp-1.pdf)
 - **Tema:** Programación Orientado a Objetos
 - **Puntos obligatorios:** 2, 5, 6
 
