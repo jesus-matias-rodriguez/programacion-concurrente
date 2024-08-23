@@ -1,4 +1,4 @@
-package Formas;
+package formas;
 
 public abstract class Forma {
 

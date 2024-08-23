@@ -1,4 +1,4 @@
-package Formas;
+package formas;
 
 public class Cuadrilatero extends Forma {
 

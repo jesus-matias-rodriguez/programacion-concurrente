@@ -1,15 +1,21 @@
-package Cuentas;
+package cuentas;
 
 import java.util.Random;
 
 public class CuentaSueldo extends CuentaBancaria implements OperacionesBancarias {
-    private Integer legajo;
+    @SuppressWarnings("unused")
+	private Integer legajo;
+    
+    @SuppressWarnings("unused")
     private String institucion;
+    
+    @SuppressWarnings("unused")
     private String beneficios;
+    
+    @SuppressWarnings("unused")
     private Long cbu;
+    
     private Double tope;
-
-    private static final Double TOPE_FIJO = 15000.0;
 
     private void validar_cbu(Long cbu) {
         var digitos = cbu.toString().length();
@@ -31,13 +37,13 @@ public class CuentaSueldo extends CuentaBancaria implements OperacionesBancarias
 
         validar_cbu(cbu);
         this.cbu = cbu;
-        this.tope = TOPE_FIJO;
+        this.tope = OperacionesComunes.TOPE_FIJO;
     }
 
     @Override
     public void retirar(Double saldo) {
         if (saldo > this.tope)
-            throw new Error("supero el tope de retiro: $" + TOPE_FIJO);
+            throw new Error("supero el tope de retiro: $" + OperacionesComunes.TOPE_FIJO);
 
         super.retirar(saldo);
     }

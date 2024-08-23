@@ -1,4 +1,4 @@
-package Cuentas;
+package cuentas;
 
 public class CuentaBancaria {
     private Long numero_cuenta;

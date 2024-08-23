@@ -1,7 +1,7 @@
-package Cuentas;
+package cuentas;
 
 public interface OperacionesComunes {
-    String atributo1 = "Atributo1";
+    Double TOPE_FIJO = 15000.0;
     String atributo2 = "Atributo2";
     String atributo3 = "Atributo3";
 

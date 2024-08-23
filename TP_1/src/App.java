@@ -1,7 +1,7 @@
-import Formas.Circulo;
-import Formas.Cuadrilatero;
-import Formas.Forma;
-import Formas.IForma;
+import formas.Circulo;
+import formas.Cuadrilatero;
+import formas.Forma;
+import formas.IForma;
 
 class App {
     private static void print_forma(IForma forma) {

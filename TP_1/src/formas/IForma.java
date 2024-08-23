@@ -1,4 +1,4 @@
-package Formas;
+package formas;
 
 public interface IForma {
     double perimetro();
