@@ -26,11 +26,14 @@ A partir de la clase definida en el ejemplo anterior, cree una nueva clase **Cue
 
 ```java
 public class CuentaSueldo extends CuentaBancaria {
-	private Integer legajo;
+    private Integer legajo;
     private String institucion;
     private String beneficios;
     private Long cbu;
     private Double tope;
+...
+}
+
 ```
 
 Además debe poseer los siguientes métodos:
