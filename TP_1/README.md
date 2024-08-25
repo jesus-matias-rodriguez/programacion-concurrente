@@ -1,8 +1,10 @@
 # TP 1 Programación Concurrente.
-[Trabajo Practico 1](./docs/tp-1.pdf)
+
 - **Tema:** Programación Orientado a Objetos
 - **Puntos obligatorios:** 2, 5, 6
 
+- [Trabajo Practico](./docs/tp-1.pdf)
+- [Informe](./docs/informe.md)
 ## Gestión de Cuentas Bancarias
 - Las clases correspondientes se encuentran en el paquete **Cuentas**
 - Puntos a desarrollar: 1-3
