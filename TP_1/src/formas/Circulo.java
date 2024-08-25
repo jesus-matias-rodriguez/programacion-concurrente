@@ -1,9 +1,10 @@
 package formas;
 
-public class Circulo implements IForma {
+public class Circulo extends Forma {
     private Double radio;
 
     public Circulo(Double radio) {
+        super("CIRCULO");
         this.radio = radio;
     }
 
@@ -15,11 +16,6 @@ public class Circulo implements IForma {
     @Override
     public double area() {
         return Math.PI * this.radio * this.radio;
-    }
-
-    @Override
-    public String NombreForma() {
-        return "CIRCULO";
     }
 
 }

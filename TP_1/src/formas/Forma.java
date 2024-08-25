@@ -2,7 +2,7 @@ package formas;
 
 public abstract class Forma {
 
-    public String NombreForma;
+    private String NombreForma;
 
     public Forma(String NombreForma) {
         this.NombreForma = NombreForma;
@@ -11,4 +11,8 @@ public abstract class Forma {
     public abstract double perimetro();
 
     public abstract double area();
+
+    public String getNombreForma() {
+        return this.NombreForma;
+    }
 }

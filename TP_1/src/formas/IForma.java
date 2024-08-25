@@ -1,9 +1,9 @@
 package formas;
 
 public interface IForma {
-    double perimetro();
+    double perímetro();
 
     double area();
 
-    String NombreForma();
+    String getNombreForma();
 }
